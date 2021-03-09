@@ -1,0 +1,49 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(menu.css);
+@import url(banner.css);
+@import url(blog.css);
+
+* { /* Propiedades de toda la pagina */
+    margin: 0; /* Sin margen */
+    padding: 0; /* Sin margen interno */
+    box-sizing: border-box; /* Que se contenga dentro de la caja */
+}
+
+body {
+    font-family: 'Open Sans', sans-serif; /* Fuente de letra */
+}
+
+header {
+    width: 100%; /* Ancho */
+    height: 50px; /* Alto */
+    background: #333333; /* Color de fondo */
+    color: #fff; /* Color de fuente */
+
+    position: fixed; /* Posicion fija */
+    top: 0; /* Alto 0 */
+    left: 0; /* Izquierda 0 */
+    z-index: 100; /* Mantiene el header siempre a la vista tapando lo demas */
+}
+
+.contenedor {
+    width: 98%; /* Ancho de 98% permite mostrar una pequeña linea entre el borde de la pagina */
+    margin: auto; /* Para centrar */
+}
+
+
+h1 {
+    float: left; /* h1 flota a la izquierda */
+}
+
+header .contenedor {
+    display: table; /* Limpiar o alinear los float*/
+}
+
+section {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+#bienvenidos { 
+    text-align: center; /* Alinea el texto al centro */
+}
