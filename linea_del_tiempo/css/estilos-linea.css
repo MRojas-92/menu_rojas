@@ -1,0 +1,115 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 2;
+    margin: 0;
+
+}
+
+/* GLOBALES */
+.contenedor {
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+}
+h1, h2, h3, h4 {
+    font-family: 'PT Sans', sans-serif;
+}
+h1 {
+    font-size: 48px;
+    line-height: 1.2;
+    margin: auto;
+    text-align: center;
+}
+h2 {
+    font-size: 40px;
+}
+h3 {
+    font-size: 32px;
+    background-color: #D35400;
+}
+h4 {
+    font-size: 28px;
+}
+img {
+    max-width: 100%;
+}
+
+/** UTILIDADES **/
+.centrar-texto {
+    text-align: center;
+}
+.encabezado {
+    background-color: #93c47d;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 30rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+.centrar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+
+.centrar a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+.fondo {
+    background-color: #999999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+    font-size: 20px;
+}
+
+.fondo a {
+    color: #ffffff;
+    text-decoration: dotted;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;   
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.imagen {
+    margin-top: 2rem;
+}
+
+.encabezado h1 {
+    color: #ffffff;
+    background-color: #000000;
+    padding: 1rem;
+}
+
+.encabezado a {
+    text-decoration: none;
+}
+
+.panel {
+    background-color: #CEF6F5;
+}
+
+.encabezado a {
+    color: #000000;
+    margin-top: 10px;
+}
+
+.navega a {
+    text-decoration: none;
+    padding-left: 30px;
+    margin-top: 10px;
+    color: #000000;
+    font-weight: 800;
+}
